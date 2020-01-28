@@ -1,0 +1,52 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+    <div style="margin-top:50px">
+		<div class="col-12">
+			<h1>Integration Framework Chatbot</h1>
+			<h3>Do you have questions about products, workflows or SQL functions?</h3>
+            <p>Ask the Bot</p>
+            <p>This chatbot has been created as a project accompanying the master thesis <i>Integration Framework between Natural Language Processing and UA Content based on Chatbot Technologies.</i></p>
+            <p>The original version of the chatbot is only available SAP internally - this version runs on mock data and does not use any SAP APIs. Therefore, the result of searches, chapters and content <br/>will always be the same - no matter the search objective. This is intended as this is supposed to be a proof of concept.</p>
+            <p>&nbsp;</p>
+            <h2>Product scenario</h2>
+			<ul>
+
+                <li>Type: I'm looking for a product</li>
+                <li>Type your search parameter: <i>SAP HANA</i></li>
+				<li>Choose a result</li>
+            </ul>
+            <h2>Workflow or SQL function scenarios</h2>
+            <ul>
+                <li>Type what you want to know: <i>How do I delegate workflows automatically?</i> or <i>I'm looking for a function to convert a string to lowercase</i></li>
+                <li>Choose a result</li>
+                <li>Choose a keyblock/chapter</li>
+            </ul>
+            <h2>Weather scenario</h2>
+            <ul>
+                <li>Ask: How is the weather in Mannheim tomorrow?</li>
+            </ul>
+			<h2>Technology</h2>
+			<ul>
+				<li>The right skill from a chatbot framework (here SAP CAI) is mapped</li>
+				<li>If necessary, a full text search across Help Portal content is done</li>
+				<li>For the product, workflow and SQL function scenarios, users can choose from different results</li>
+				<li>In the workflow and SQL functions scenarios, the HTML topic is loaded from the Help Portal, they keyblocks are parsed and displayed as result</li>
+                <li>Choosing a keyblock shows the Help Portal content of the keyblock</li>
+                <li>The weather scenario runs on the <a href="https://www.metaweather.com/" target="_blank">MetaWeather API</a></li>
+			</ul>
+			<h3>Feedback: <a href="mailto:dominik.aker@gmx.com">dominik.aker@gmx.com</a></h3>
+		</div>
+    </div>
+
+
+
+    <script src="https://cdn.cai.tools.sap/webchat/webchat.js"
+    channelId=""
+    token=""
+    id=""
+    ></script>
+</body>
+</html>
